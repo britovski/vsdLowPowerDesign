@@ -7,38 +7,51 @@ This repository is a summary of the 5-day workshop of Low Power Design course pr
 
 ## Day 1
 
-First is provided some key concepts that will be covered on this course and outcomes.
+First is provided some instructor background and the course overview. 
+
+Then key is mentioned some key concepts that will be covered on this course and outcomes.
+
+Key concepts as:o
+- LPD vs PM;
+- Basic rules of PM;
+- Balancing Density-Delivery-Leakage-Lifetime;
+- Voltage Aware Boolean Equations;
+- Island ordering;
+- Verification; and
+- Impacts of IoT on LPD; will be covered.
 
 Some important concepts are presented (provoked) as really important thins as Power vs Energy!
 
-
-### Fundamental
+### Why LPD?
 Some concepts introduced:
-- Board design x chip design
-- packages x chip/die (composed by PADs + core) x IC
-- Foundry IP's x IP's x Macros
+- Power/Energy definitions
+- Power/Performance discussion
+- Portable vs Mobile vs Mobility!
 
-### RISC-V ISA
-An introduction to RISC-V architeture is done.
-- Translation from high-level language to machine code is presented: C --> ASM --> binary code (compilator + assembler)
-- Implementation of the RISC-V ISA can be performed using HDL in the front-end side and layout in the back-end side. For exemple: picorv32 CPU core.
-- (Apps. --> System Softwares --> Hardware) real execution flow.
-SoC is introduced by Raven and picoSoC examples (RISC-V based SoCs).
-- SoC is related to the synthesizable logic in a chip. Ex: Raven Chip = Raven SoC + RAM blocks + analog IP's.
+Portable:
+Mobile:
+Mobility:
 
-### Design tools
-An introduction to IC Design flow and tools are performed. The goal is to show the RTL2GDS flow using opensource tools.
-- Beginning with logic synthesis (using Yosys);
-- Floorplanning;
-- Placement (graywolf);
-- Clock Tree Synthesis - CTS;
-- Routing (Qrouter);
-- Static Timing Analysis - STA (Opentimer);
-* MAGIC layout viewer and editor is presented. Also used for equivalent circuit extraction and DRC;
-* ngspice is presented for pré and post-layout simulations;
-* eSIM is also presented for SPICE simulations with schematic capture functionality and also with PCB design capabilities;
-Last but not least, Qflow is presented as a complete tool chain (using tools as Yosys and graywolf) for complete RTL2GDS flow.
+So,
 
-Some examples using qflow gui is presented, as well as vsdflow (that is a script which uses .csv configuration files with the purpose to check if opensource tool flow is ok).
-- vsdflow invokes qflow.
+### Assignment cases
+foo
 
+# Day 2
+
+## Day 3
+
+## Day 4
+
+### Hands-On Labs
+
+## Day 5
+
+## Final notes
+
+Good to learn about Low Power Design ...
+
+## Acknowledgement
+
+Kunal Ghosh, Co-founder (VSD Corp. Pvt. Ltd)
+Srikanth...
